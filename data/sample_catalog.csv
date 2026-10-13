@@ -1,0 +1,19 @@
+author,title,isbn,publication_year,language
+"Gabriel García Márquez"," Cien años de soledad ",978-84-08-24008-2,1967,Spanish
+"Gabriel García Márquez","Cien años de soledad",978-84-08-24008-2,1967,Spanish
+"J.R.R. Tolkien","The Hobbit",978-00-00-12345-6,1937,English
+"  J.R.R. Tolkien  "," The Hobbit ",978-00-00-12345-6,1937,English
+"Miguel de Cervantes","Don Quijote",978-12-34-56789-0,1605,Spanish
+"MIGUEL DE CERVANTES","don quijote",978-12-34-56789-0,1605,spanish
+"Antoine de Saint-Exupéry","Le Petit Prince",978-98-76-54321-1,1943,French
+"Antoine de Saint-Exupéry ","Le Petit Prince ",978-98-76-54321-1,1943," French "
+"George Orwell","1984",978-11-22-33333-4,1949,English
+"George Orwell","1984",9781122333334,1949,English
+"Haruki Murakami","Norwegian Wood",978-22-33-44444-5,1987,Japanese
+"Haruki Murakami","Norwegian Wood"," 978-22-33-44444-5 ",1987,japanese
+"José Saramago","Blindness",978-33-44-55555-6,1995,Portuguese
+"José  Saramago","  Blindness",978-33-44-55555-6,1995,Portuguese
+"Jane Austen","Pride and Prejudice",978-44-55-66666-7,1813,English
+"","Unknown Book",978-55-66-77777-8,2020,English
+"Unknown Author","",978-66-77-88888-9,,Spanish
+"Fyodor Dostoevsky","Crime and Punishment",INVALID-ISBN,1866,Russian
