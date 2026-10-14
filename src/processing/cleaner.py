@@ -15,7 +15,9 @@ class DataCleaner:
         if not isbn.isdigit() and len(isbn) == 10:
             return "Invalid ISBN-10: Contains non-numeric characters"
         # if bool(re.fullmatch(r"\d{13}", isbn)):
-        if re.fullmatch(r"\d{3}-\d{2}-\d{2}-\d{5}-\d", isbn) or re.fullmatch(r"\d{13}", isbn):
+        if re.fullmatch(r"\d{3}-\d{2}-\d{2}-\d{5}-\d", isbn) or re.fullmatch(
+            r"\d{13}", isbn
+        ):
             return "Valid ISBN-13"
         if not isbn.isdigit() and len(isbn) == 13:
             return "Invalid ISBN-13: Contains non-numeric characters"

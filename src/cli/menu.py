@@ -172,9 +172,10 @@ class CLIApp:
 
         input("\nPress Enter to continue...")
 
+
 def run_menu():
     app = CLIApp()
-    
+
     while True:
         try:
             app.clear_screen()
@@ -196,7 +197,9 @@ def run_menu():
                 print(f"\nTotal Works Found: {response['num_found']}\n")
                 print("Author and Titles of Works:")
                 for work in response["docs"]:
-                    print(f"{work.get('author_name', 'No author available')} - {work.get('title', 'No title available')}")
+                    print(
+                        f"{work.get('author_name', 'No author available')} - {work.get('title', 'No title available')}"
+                    )
                 input("Press Enter to continue...")
             if option == "2":
                 author_title_isbn = input(
